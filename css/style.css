@@ -1,0 +1,66 @@
+.text_ngjyra{
+    color: green;
+}
+.background-foto{
+   
+    background-image: url("../images/background-img.jpg");
+    opacity: 0.7;
+    background-size: 100%;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    color: #fdfffc;
+}.kalter{
+    background-color: blue;
+    opacity: 0.3;
+    
+}.foto{
+    position: relative;
+}
+.foto>img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top:-600px;
+
+    width:600px;
+     height:600px;
+    
+    
+}
+
+.texti{
+
+    color: #f8c31f;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 1;
+
+}.texti>h1{
+    text-align: left;
+}
+
+
+@media screen and (min-width:992px) {
+    .stili{
+        position: relative;
+    }
+    .fotor2{
+        position: absolute;
+        top: -50%;
+    
+    }
+    .fotor3{
+        position: absolute;
+        top:-75%
+    }
+    
+}
+@media screen and (max-width:840px)
+{
+    .foto>img{
+        display: none;
+    } 
+    .text-paragraf>p{
+        display: none;
+    }
+}
